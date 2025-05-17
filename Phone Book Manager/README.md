@@ -38,16 +38,23 @@ cd Phone-Book-Manager
 * `README.md` – Project documentation
 
 ---
+## 🚀 Features
 
-## ✅ Features
+- ➕ Add contacts with country-specific phone code
+- 🗑️ Delete contacts by name
+- ✏️ Edit existing contacts (name and/or phone number)
+- 🔍 Search contacts (supports partial, case-insensitive matches)
+- 📋 View all contacts sorted by name (alphabetically)
+- 🌍 Country code support (India, US, Canada, UK, etc.)
+- 🔢 Validates phone number length and digits
 
-* Add new contacts with name and phone number
-* Edit existing contacts
-* Delete contacts by name
-* Search contacts (partial name match)
-* View all contacts sorted alphabetically by name
-* Validates phone numbers (only digits, max 10 digits)
-* Handles up to 100 contacts using a static array
+---
+
+## 📦 Technologies Used
+
+- Language: **C**
+- Interface: **Command-Line Interface (CLI)**
+- No external libraries used beyond standard C libraries (`stdio.h`, `stdlib.h`, `string.h`, `ctype.h`)
 
 ---
 
@@ -121,6 +128,6 @@ gcc phonebook.c -o phonebook
 
 ## 📄 License
 
-This project is provided for educational purposes. MIT License can be added upon request.
+This project is provided for educational purposes.
 
 ---
